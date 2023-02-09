@@ -6,9 +6,9 @@ name: Build
 
 on:
   push:
-    branches: [ master ]
+    branches: [ ak/master_2_3_0 ]
   pull_request:
-    branches: [ master ]
+    branches: [ ak/master_2_3_0 ]
 
 jobs:
   build:
